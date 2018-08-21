@@ -15,6 +15,10 @@ module.exports = function(app){
             difference: 1000
 
         };
+
+        var userData = req.body
+        var userScore = userData.scores
+        var totalDiff = 0
     });
 
     
